@@ -19,15 +19,15 @@
 
     <testsuites>
         <testsuite name="Kata Test Suite">
-            <directory>./src/Kata/Tests/</directory>
+            <directory>./src/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>./src/Kata/</directory>
+            <directory>./src/</directory>
             <exclude>
-                <directory>./src/Kata/*/Tests</directory>
+                <directory>./src/*</directory>
             </exclude>
         </whitelist>
     </filter>
